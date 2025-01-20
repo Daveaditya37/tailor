@@ -1,0 +1,138 @@
+/* components/CustomCarousel.module.css */
+
+.carouselContainer {
+    width: 100%;
+    max-width: 760px;
+    
+    margin-top: 800px;
+    margin-bottom: 100px;
+   margin-left:430px ;
+  }
+  
+  .paragraph {
+    
+    margin-top: -40px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #010A44;
+    margin-left: 20px;
+    font-weight: 350;
+  }
+  
+  .carouselItem {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  .imageContainer {
+    margin-right: 15px;
+    
+  }
+  
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+     /* Brown border */
+  }
+  
+  .textContainer {
+    text-align: left;
+    margin-left: -15px;
+  }
+  
+  .name {
+    margin: 0;
+    margin-top: -30px;
+   font-weight: 400;
+    font-size: 25px;
+    color: #333;
+  }
+  
+  .subText {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .navigation {
+    display: flex;
+    float: right;
+    align-items: center;
+    margin-right: -175px;
+    margin-top: -60px;
+    
+  }
+  
+  .navButton {
+    background-color: transparent;
+    color: #e2c1ae;
+    border: none;
+    font-size: 20px;
+   
+    padding: 10px;
+    margin: 0 10px;
+  }
+  
+  .navButton:hover {
+    color: #d82727; /* Change color on hover */
+  }
+  
+  .pageButton {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+   z-index: 1;
+    
+    margin: 0 5px;
+
+  }
+  
+  
+  .active {
+    color: #BE9278;
+     /* Brown background for active button */
+    border-radius: 50%;
+    padding: 10px 15px;
+  }
+  
+  .pageButton:not(.active) {
+    color: #333;
+  }
+  
+  #nav{
+    margin-right: -250px;
+    z-index: 1;
+    font-size: 20px;
+  }
+  #nav1{
+    font-size: 20px;
+    margin-left: -90px;
+    color: #e2c1ae;
+    background-color: none;
+
+  }
+  #btn{
+margin-right: -190px;
+
+  }
+  #pagebtn1{
+    
+  }
+  .img8{
+    margin-left: -70px;
+  }
+
+  .carouselContainer hr{
+    color: #BE9278;
+    
+    margin:0 auto;
+    width: 850px;
+    margin-top: 120px;
+    margin-left: -70px;
+
+  }
