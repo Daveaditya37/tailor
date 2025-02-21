@@ -136,3 +136,35 @@ margin-right: -190px;
     margin-left: -70px;
 
   }
+
+  @media (max-width: 480px) {
+    .carouselContainer{
+      max-width: 100%;
+     
+      
+      padding: 20px;
+      margin-top: 350px;
+      margin-bottom: 100px;
+     margin-left:0px ;
+    }
+    .paragraph {
+font-size: 17px;
+font-weight: 400;
+    }
+    .img8{
+      display: none;
+    }
+    .name{
+      margin-left: -20px;
+    }
+    .subText{
+      font-size: 14px;
+      margin-left: -20px;
+    }
+    .carouselItem{
+      margin-left: -10px;
+    }
+    .navigation{
+      display: none;
+    }
+  }

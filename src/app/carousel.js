@@ -16,7 +16,7 @@ const CustomCarousel = () => {
         subText: "Creative designer at Colorlib"
       },
       {
-        text: "Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts & elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replica;ition of thei designers ijtls intended csents your se.",
+        text: " hi i am busy",
         imageSrc: "https://preview.colorlib.com/theme/tailor/assets/img/icon/testimonial.png",
         name: "Robart Brown",
         subText: "Creative designer at Colorlib"

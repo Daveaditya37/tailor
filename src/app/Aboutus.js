@@ -1,11 +1,14 @@
 import "./globals.css";
 
+
 export default function About() {
   return (
     <>
-
+    
+    <div className="contain">
     
       <div className="container3">
+        
         <h1 id="abt">About our</h1>
         <h1 id="abt2">tailor house</h1>
 
@@ -27,6 +30,7 @@ export default function About() {
           src="https://preview.colorlib.com/theme/tailor/assets/img/gallery/visit_bg.png.webp"
           alt="img"
         />
+      </div>
       </div>
     </>
   );

@@ -7,7 +7,9 @@ import About from './Aboutus';
 import Services from './services';
 import Carousel from './carousel';
 import Social from './social';
-import Footer from './footer'
+import Footer from './footer';
+
+
 export default function App() {
   return (
     <>
@@ -20,6 +22,7 @@ export default function App() {
       <Carousel/>
       <Social/>
       <Footer/>
+     
     </div>
     
     </>
