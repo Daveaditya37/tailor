@@ -52,7 +52,7 @@ export default function AnotherNavPage() {
           </li>
           <li><Link href="/Contact">Contact</Link></li>
         </ul>
-        <button className="visit-us-btn">Visit Us</button>
+        <button className="visit-us-btn"><Link href="/Contact">Visit Us</Link></button>
       </nav>
 
       
