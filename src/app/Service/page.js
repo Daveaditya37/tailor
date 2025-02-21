@@ -55,10 +55,10 @@ export default function Newpage() {
               <a href="#">Blog</a>
               <ul className="dropdown-content">
                 <li>
-                  <a href="#">Blog</a>
+                   <Link href="/Blog">Blog</Link>
                 </li>
                 <li>
-                  <a href="#">Blog Details</a>
+                  <Link href="/Blog/1">Blog Details</Link>
                 </li>
                 <li>
                   <a href="#">Element</a>
