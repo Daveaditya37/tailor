@@ -1305,6 +1305,10 @@ font-size: 15px;
   font-size: 23px; 
   padding: 20px;
 }
+.tag-container2 h2{
+  font-size: 23px; 
+  padding: 20px;
+}
 
 .tags {
   margin-top: 10px;
@@ -1344,10 +1348,12 @@ font-size: 15px;
  
 }
 .tags2{
+  
  margin-left: 10px;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(3, 100);
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
 margin-top: 10px;
 }
 #post-p2{
